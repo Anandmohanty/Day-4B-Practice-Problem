@@ -1,16 +1,14 @@
 ﻿namespace Day_4B_Practice_Problem
 {
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
+    
+      
             Console.WriteLine("Welcome to Day-4B-Practice Problem");
             class Program
         {
             static void Main(string[] args)
             {
-                Console.WriteLine("Welcome To Day 4B- Object Orianted Problem");
-                Console.WriteLine("Please Select any one option \n 1. Count of total number of duplicate elements\n" +
+            Console.WriteLine("Welcome to Day-4B-Practice Problem");
+            Console.WriteLine("Please Select any one option \n 1. Count of total number of duplicate elements\n" +
                     " 2. To find Unique Element\n 3.count the frequency of each element \n 4. maximum and minimum element \n " +
                     "5. Right Angle Star Pattern \n 6. Rectangle Star Pattern \n 7. Reverse Each Word in a Given String \n" +
                     " 8. Sum of Each Digit \n 9. Sum of Each row in Given matrix");
