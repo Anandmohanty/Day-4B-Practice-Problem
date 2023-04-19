@@ -2,7 +2,7 @@
 {
     
       
-            Console.WriteLine("Welcome to Day-4B-Practice Problem");
+            
             class Program
         {
             static void Main(string[] args)

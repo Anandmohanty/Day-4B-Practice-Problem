@@ -6,14 +6,13 @@ using System.Threading.Tasks;
 
 namespace Day_4B_Practice_Problem
 {
-    public class DuplicateElement
+    internal class Frequency
     {
-        public static void DuplicateIntElement()
+        public static void FrequencyOfIntElement()
         {
             Console.WriteLine("Enter how many element you want to Put in Array");
             int size = Convert.ToInt32(Console.ReadLine());
             int[] intArray = new int[size];
-            int count = 0;
             Console.WriteLine("Enter one by one element ");
             for (int i = 0; i < intArray.Length; i++)
             {
@@ -28,23 +27,18 @@ namespace Day_4B_Practice_Problem
 
             for (int i = 0; i < intArray.Length; i++)
             {
-                for (int j = i + 1; j < intArray.Length; j++)
+                int count = 0;
+                for (int j = 0; j < intArray.Length; j++)
                 {
                     if (intArray[i] == intArray[j])
                     {
                         count++;
-                        break;
+
                     }
                 }
+                Console.WriteLine("\n The Frequency of {0} is {1}", intArray[i], count);
             }
-            Console.WriteLine("\n The Duplicate Number in Given string is " + count);
-      
-        
-        }
 
-        internal static void FrequencyOfIntElement()
-        {
-            throw new NotImplementedException();
         }
     }
 }
