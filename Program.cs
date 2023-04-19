@@ -3,9 +3,11 @@
     
       
             
-            class Program
+      class Program
         {
-            static void Main(string[] args)
+        public static object Sum { get; private set; }
+
+        static void Main(string[] args)
             {
             Console.WriteLine("Welcome to Day-4B-Practice Problem");
             Console.WriteLine("Please Select any one option \n 1. Count of total number of duplicate elements\n" +
@@ -51,4 +53,3 @@
             }
         }
     }
-}
